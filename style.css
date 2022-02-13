@@ -1,0 +1,124 @@
+/* - Bare De navigation - */
+
+nav
+{
+    margin-left: 18%;
+    margin-top: -25px;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li
+{
+    list-style: none;
+}
+
+nav ul li a
+{
+    display: block;
+    margin: 1em 4em;
+    padding: 30px 30px;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+
+}
+.home
+{
+    background-color: #662f32;
+    color: #fff;
+}
+
+/* - Titre de la page - */
+h1
+{
+    font-size: 80px;
+    margin-left: 38%;
+    margin-top: 7%;
+    margin-bottom: 10vh;
+}
+
+span
+{
+    color: #662f32;
+}
+
+/* - Image de présentation - */
+img.img-chambre
+{
+    height: 600px;
+    margin-left: 22%;
+}
+
+/* - Fiches de présentation avec hover effect - */
+div.fiches
+{
+    display: inline-flex;
+    margin: 1em 4em;
+    padding: 30px 30px;
+    margin-left: 45vh;
+}
+
+div.card
+{
+    margin-left: 50px;
+}
+
+div.title
+{
+    background-color: #662f32;
+    margin-bottom: 0px;
+    height: 50px;
+}
+div.other
+{
+    margin-top: 0px;
+    background-color: #645955;
+    padding-bottom: 0px;
+}
+
+
+div.title h3.title
+{
+    padding-top: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+p.description
+{
+    color: #fff;
+    width: 285px;
+}
+
+img.plus
+{
+    margin-top: 10px;
+    padding-left: 24vh;
+}
+
+
+/* - Témoignages | Services premium | A Propos - */
+
+/* - TÉMOIGNAGES - */
+
+
+
+/* - Footer séparator - */
+div.footer-separator
+{
+    background-color: grey;
+    height: 2px;
+}
+
+/* - Footer - */
+
+footer img{
+    margin-top: 40px;
+    margin-bottom: -30px;
+    margin-left: 113em;
+}
