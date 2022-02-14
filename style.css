@@ -98,14 +98,90 @@ p.description
 img.plus
 {
     margin-top: 10px;
-    padding-left: 24vh;
+    margin-left: 24vh;
 }
 
 
+
 /* - Témoignages | Services premium | A Propos - */
-
+div.all-description
+{
+    display: inline-flex;
+}
 /* - TÉMOIGNAGES - */
+div.temoignages
+{
+    margin-left: 53vh;
+}
 
+div.temoignages h3
+{
+    color: rgb(95, 95, 95);
+}
+
+div.temoignages p
+{
+    margin-bottom: 2vh;
+    margin-top: -18px;
+    margin-left: 2vh;
+    width: 285px;
+}
+/* - Premium Service - */
+div.premium
+{
+    margin-left: 90vh;
+    margin-bottom: 400px;
+    margin-top: -425px;
+    width: 285px;
+}
+
+div.premium h3.title
+{
+    color: rgb(95, 95, 95);
+}
+
+div.premium h3.subtitle
+{
+    color: #662f32;
+}
+
+
+div.about-us
+{
+    margin-left: 128vh;
+    margin-bottom: 200px;
+    margin-top: -665px;
+    width: 285px;
+}
+
+div.about-us h3.title
+{
+    color: rgb(95, 95, 95);
+}
+
+div.about-us h3.subtitle
+{
+    color: #662f32;
+}
+
+a.read-more
+{
+    background-color: #645955;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    transition: 250ms;
+}
+
+a.read-more:hover
+{
+    background-color: #fff;
+    color: #645955;
+    transition: 250ms;
+}
 
 
 /* - Footer séparator - */
@@ -121,4 +197,20 @@ footer img{
     margin-top: 40px;
     margin-bottom: -30px;
     margin-left: 113em;
+}
+
+
+
+
+
+/* - Scroll Bare - */
+::-webkit-scrollbar
+{
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #666;
+    border-radius: 3px;
 }
