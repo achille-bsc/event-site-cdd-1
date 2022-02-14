@@ -40,11 +40,24 @@ h1
     margin-left: 38%;
     margin-top: 7%;
     margin-bottom: 10vh;
+    transition: 500ms;
 }
 
 span
 {
     color: #662f32;
+    transition: 500ms;
+}
+
+h1.page-title:hover
+{
+    color: #662f32;
+    transition: 500ms;
+}
+h1.page-title:hover span
+{
+    color: #000;
+    transition: 500ms;
 }
 
 /* - Image de présentation - */
@@ -73,12 +86,14 @@ div.title
     background-color: #662f32;
     margin-bottom: 0px;
     height: 50px;
+    transition: 500ms;
 }
 div.other
 {
     margin-top: 0px;
     background-color: #645955;
     padding-bottom: 0px;
+    transition: 500ms;
 }
 
 
@@ -87,12 +102,14 @@ div.title h3.title
     padding-top: 15px;
     color: #fff;
     text-align: center;
+    transition: 500ms;
 }
 
 p.description
 {
     color: #fff;
     width: 285px;
+    transition: 500ms;
 }
 
 img.plus
@@ -101,6 +118,34 @@ img.plus
     margin-left: 24vh;
 }
 
+/* - Hover effect on the cards - */
+div.card:hover h3
+{
+    background-color: #fff;
+    color: #662f32;
+    transition: 500ms;
+}
+div.card:hover img
+{
+    background-color: #fff;
+    transition: 500ms;
+}
+div.card:hover p
+{
+    background-color: #fff;
+    color: #645955;
+    transition: 500ms;
+}
+div.card:hover div.other
+{
+    background-color: #fff;
+    transition: 500ms;
+}
+div.card:hover div.title
+{
+    background-color: #fff;
+    transition: 500ms;
+}
 
 
 /* - Témoignages | Services premium | A Propos - */
@@ -173,14 +218,14 @@ a.read-more
     padding-left: 10px;
     padding-bottom: 20px;
     padding-right: 10px;
-    transition: 250ms;
+    transition: 500ms;
 }
 
-a.read-more:hover
+button.read-more:hover
 {
     background-color: #fff;
     color: #645955;
-    transition: 250ms;
+    transition: 500ms;
 }
 
 
