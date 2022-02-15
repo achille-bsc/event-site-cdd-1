@@ -221,13 +221,6 @@ a.read-more
     transition: 500ms;
 }
 
-a.read-more:hover
-{
-    background-color: #fff;
-    color: #645955;
-    transition: 500ms;
-}
-
 button.read-more:hover
 {
     background-color: #fff;
